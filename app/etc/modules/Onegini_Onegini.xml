@@ -1,0 +1,12 @@
+
+<config>
+  <modules>
+    <Onegini_Onegini>
+      <active>true</active>
+      <codePool>community</codePool>
+      <depends>
+        <Mage_Cms />
+      </depends>
+    </Onegini_Onegini>
+  </modules>
+</config>

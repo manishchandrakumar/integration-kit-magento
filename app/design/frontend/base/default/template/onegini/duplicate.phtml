@@ -1,0 +1,16 @@
+<div class="account-login">
+    <div class="page-title">
+        <h1><?php echo $this->__('Already have an account?') ?></h1>
+    </div>
+    <div>
+        <p>Email address
+        <?php
+
+        Mage::log("In duplicate page");
+        if (isset($_POST['email'])) {
+            echo $_POST['email'];
+        }
+        ?>
+        already in use.</p>
+    </div>
+</div>
